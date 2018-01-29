@@ -3,10 +3,13 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Boletín</title>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://use.fontawesome.com/f3f83c8d40.js"></script>
         <style type="text/css">
 
         	body {margin: 0; padding: 0; min-width: 100%!important;}
-			img {height: auto;}       	
+			img {height: auto;}   
+			a i {font-size: 35px !important; color: #231f20;}    	
 
 			.content {width: 100%; max-width: 600px;}
 			.header {padding: 40px 30px 20px 30px;}
@@ -14,7 +17,7 @@
 			.h1 {font-size: 33px; line-height: 38px; font-weight: bold;}
 			.h1, .h2, .bodycopy {color: #153643; font-family: sans-serif;}
 			.innerpadding {padding: 30px 30px 30px 30px;}
-			.borderbottom {border-bottom: 1px solid #e0e4e9;}
+			.borderbottom {border-bottom: 1px solid #808285;}
 			.h2 {padding: 0 0 15px 0; font-size: 24px; line-height: 28px; font-weight: bold;}
 			.bodycopy {font-size: 16px; line-height: 22px;}
 			.button {text-align: center; font-size: 18px; font-family: sans-serif; font-weight: bold; padding: 0 30px 0 30px;}
@@ -27,6 +30,7 @@
 			.menu {padding: 15px 10px; font-family: Helvetica, Arial, sans-serif; font-size: 18px; color: #fff; font-weight: bold; text-align: center;}
 			.menu a { color: #00305e; text-decoration: none; }
 			.menu a:hover {color: #b2bcc8;}
+			.separator {color:#fff; font-size: 20px; text-align: center; font-family: sans-serif; font-weight: bold; padding: 10px 0 10px 0;}
 			
 			@media only screen and (min-device-width: 601px) {
 				.content {width: 600px !important;}
@@ -54,7 +58,7 @@
 
                     	<!--Fila Header-->
                         <tr>
-                            <td class="header borderbottom">
+                            <td class="header ">
                                 <table width="70" align="left" border="0" cellpadding="0" cellspacing="0">
    									<tr>
 								        <td height="70" style="padding: 0 15px 15px 0;">
@@ -95,19 +99,25 @@
                         <!-- fin de  la fila Header-->
 
                         <!-- primera línea de contenido-->
+                        <tr class="">
+							<td class="separator" bgcolor="731472">
+							 		Lanzamientos
+							</td>
+						</tr>
                         <tr>
-						    <td class="innerpadding borderbottom">
+						    <td class="innerpadding ">
 						        <table width="100%" border="0" cellspacing="0" cellpadding="0">
 						            <tr>
-						                <td class="h2">
-						                    Welcome to our responsive email!
+						                <td class="bodycopy" style="padding: 0 10px 10px 10px;text-align: justify;">
+						                    Recuerda todos los detalles de tus reuniones de Liderazgo, anotando cada paso en esta bella Agenda. Búscala ya en <a href="www.amway.com.ve" style="text-decoration: none; color: #Ed174c; font-weight: bold">WWW.AMWAY.COM.VE</a>
 						                </td>
 						            </tr>
 						            <tr>
-						                <td class="bodycopy">
-						                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
-						                </td>
-						            </tr>
+									    <td class="borderbottom">
+									        <img src="images/agenda.jpg" width="100%" border="0" alt="" />
+									    </td>
+									</tr>
+
 						        </table>
 						    </td>
 						</tr>
@@ -115,11 +125,16 @@
 
                         <!--Segunda línea de contenido-->
                         <tr>
+							<td class="separator" bgcolor="008fc5">
+							 		Noticias
+							</td>
+						</tr>
+                        <tr>
 						  	<td class="innerpadding borderbottom">
-						    	<table width="115" align="left" border="0" cellpadding="0" cellspacing="0">  
+						    	<table width="200" align="left" border="0" cellpadding="0" cellspacing="0">  
 						      		<tr>
 						        		<td height="115" style="padding: 0 20px 20px 0;">
-						          		<img src="images/2.jpeg" width="115" height="115" border="0" alt="" />
+						          		<img src="images/curazao.jpg" width="200" height="115" border="0" alt="" />
 						        		</td>
 						      		</tr>
 						    	</table>
@@ -128,21 +143,21 @@
 							        <tr>
 							          <td>
 							    <![endif]-->
-						    	<table class="col380" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 380px;">  
+						    	<table class="col380" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;">  
 						      		<tr>
 						        		<td>
 						          			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 									            <tr>
-									              <td class="bodycopy">
-									                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+									              <td class="bodycopy" style="padding: 10px 0 10px 0; text-align: justify">
+									                Disfruta con nosotros de los momentos mas especiales en el Seminario de Liderazgo, Curazao 2017.
 									              </td>
 									            </tr>
 									            <tr>
 									              <td style="padding: 20px 0 0 0;">
-									                <table class="buttonwrapper" align="center" bgcolor="#e05443" border="0" cellspacing="0" cellpadding="0">
+									                <table class="buttonwrapper" align="center" bgcolor="#28a148" border="0" cellspacing="0" cellpadding="0">
 									                  <tr>
-									                    <td class="button" height="45" >
-									                      <a href="#">Claim yours!</a>
+									                    <td class="button" height="45" width="150" >
+									                      <a target="_blank" href="https://www.youtube.com/watch?v=jut9SH0asUA">Ver!!!</a>
 									                    </td>
 									                  </tr>
 									                </table>
@@ -159,12 +174,62 @@
 							    <![endif]-->
 						  	</td>
 						</tr>
+						<tr>
+						  	<td class="innerpadding borderbottom">
+							    <!--[if (gte mso 9)|(IE)]>
+							      <table width="380" align="left" cellpadding="0" cellspacing="0" border="0">
+							        <tr>
+							          <td>
+							    <![endif]-->
+						    	<table class="col380" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 300px;">  
+						      		<tr>
+						        		<td>
+						          			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									            <tr>
+									              <td class="bodycopy" style="padding: 10px 0 10px 0; text-align: justify">
+									                Te invitamos esta noche a las 9 pm a participar en el taller Tu negocio en Facebook.
+									              </td>
+									            </tr>
+									            <tr>
+									              <td style="padding: 20px 0 0 0;">
+									                <table class="buttonwrapper" align="center" bgcolor="#28a148" border="0" cellspacing="0" cellpadding="0">
+									                  <tr>
+									                    <td class="button" height="45" width="150" >
+									                      <a target="_blank" href="https://entrenamientosina.webex.com/entrenamientosina/onstage/g.php?MTID=e63996f4d888633306443322f73001f52">Ingresa!!!</a>
+									                    </td>
+									                  </tr>
+									                </table>
+									              </td>
+									            </tr>
+						          			</table>
+						        		</td>
+						      		</tr>
+						    	</table>
+							    <!--[if (gte mso 9)|(IE)]>
+							          </td>
+							        </tr>
+							    </table>
+							    <![endif]-->
+							    <table width="200" align="left" border="0" cellpadding="0" cellspacing="0">  
+						      		<tr>
+						        		<td height="115" style="padding: 0 0 20px 20px;">
+						          		<img src="images/seminario.jpg" width="200" height="115" border="0" alt="" />
+						        		</td>
+						      		</tr>
+						    	</table>
+						  	</td>
+						</tr>
                         <!--fin de la segunda línea de contenido -->
 						
 						<!-- inicio de la tercera línea de contenido-->
 						<tr>
-						    <td class="innerpadding borderbottom">
-						        <img src="images/1.jpeg" width="100%" border="0" alt="" />
+							<td class="separator" bgcolor="ed174c">
+							 		Promociones
+							</td>
+						</tr>
+						<tr>
+						    <td class="borderbottom">
+						        <img src="images/pub1.png" width="100%" border="0" alt="" />
 						    </td>
 						</tr>	
 						<!-- fin de la tercera línea de contenido -->
@@ -175,7 +240,7 @@
 
 						<!-- footer -->
 						<tr>
-						    <td class="footer" bgcolor="#b2bcc8">
+						    <td class="footer" bgcolor="#008fc5">
 						        <table width="100%" border="0" cellspacing="0" cellpadding="0">
 						        	<tr align="center">
 									    <td class="">
@@ -211,22 +276,26 @@
 						                        <tr>
 						                            <td width="37" style="text-align: center; padding: 0 10px 0 10px;">
 						                                <a href="http://www.facebook.com/">
-						                                    <img src="icons/icons/svg/social-facebook.svg" width="37" height="37" alt="Facebook" border="0" />
+						                                    <!--<img src="icons/icons/svg/social-facebook.svg" width="37" height="37" alt="Facebook" border="0" />-->
+						                                    <i class="fa fa-facebook-square" aria-hidden="true" title="facebook"></i>
 						                                </a>
 						                            </td>
 						                            <td width="37" style="text-align: center; padding: 0 10px 0 10px;">
 						                                <a href="http://www.instagram.com/">
-						                                    <img src="icons/icons/svg/social-instagram.svg" width="37" height="37" alt="Instagram" border="0" />
+						                                   <!-- <img src="icons/icons/svg/social-instagram.svg" width="37" height="37" alt="Instagram" border="0" />-->
+						                                    <i class="fa fa-instagram" aria-hidden="true" title="Instagram"></i>
 						                                </a>
 						                            </td>
 						                            <td width="37" style="text-align: center; padding: 0 10px 0 10px;">
 						                                <a href="http://www.twitter.com/">
-						                                    <img src="icons/icons/svg/social-twitter.svg" width="37" height="37" alt="Twitter" border="0" />
+						                                    <!--<img src="icons/icons/svg/social-twitter.svg" width="37" height="37" alt="Twitter" border="0" />-->
+						                                    <i class="fa fa-twitter-square" aria-hidden="true" title="Twitter"></i>
 						                                </a>
 						                            </td>
 						                            <td width="37" style="text-align: center; padding: 0 10px 0 10px;"">
 						                                <a href="http://www.youtube.com">
-						                                    <img src="icons/icons/svg/social-youtube.svg" width="37" height="37" alt="YouTube" border="0" />
+						                                    <!--<img src="icons/icons/svg/social-youtube.svg" width="37" height="37" alt="YouTube" border="0" />-->
+						                                    <i class="fa fa-youtube-square" aria-hidden="true" title="YouTube"></i>
 						                                </a>
 						                            </td>
 						                        </tr>
